@@ -7,4 +7,8 @@ public class Kat extends DomesticAnimals {
         super(name, gender, nameOwner, favFoodBrand, species);
         this.outsideCat = outsideCat;
     }
+    @Override
+    public void sound(){
+        System.out.println("Miauw");
+    }
 }

@@ -8,4 +8,8 @@ public class Leeuw extends WildAnimal{
         super(name, gender, nameCage, dayLastFed, landOfBirth);
         this.numberOfKids = numberOfKids;
     }
+    @Override
+    public void sound(){
+        System.out.println("Roarrr");
+    }
 }
